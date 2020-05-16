@@ -3,24 +3,18 @@
 	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>摸鱼日记 | slackmorning</title>
+<title>使用 Stanza 进行词性标注 | slackmorning</title>
 <link rel="shortcut icon" href="https://slackmorning.github.io/favicon.ico?v=1589644408090">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://slackmorning.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="摸鱼日记 | slackmorning - Atom Feed" href="https://slackmorning.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="使用 Stanza 进行词性标注 | slackmorning - Atom Feed" href="https://slackmorning.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="昨天立的 flag 又收了。早起补进度。😇
-
-疫情不开学，在家小肚子渐长。算了一下 BMI，高达25.8。🤤
-要控制食量，增强运动了。🙃
-今天是母亲节。
-今日任务：
-1. 为blog设置DNS
-- 在 namesilo 选择域名，用 ..." />
-    <meta name="keywords" content="摸鱼日记" />
+    <meta name="description" content="StanfordNLP 的 python 接口项目改名为了 Stanza， 刚好需要完成词性标注任务。记录一下。
+哦不，Stanza 除了继承 Stanfor CoreNLP 的 python 接口，还集成了基于 PyTorch 的神经网络..." />
+    <meta name="keywords" content="python,NLP" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -98,55 +92,95 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              摸鱼日记
+              使用 Stanza 进行词性标注
             </h2>
             <div class="post-info">
               <span>
-                2020-05-10
+                2020-05-16
               </span>
               <span>
-                1 min read
+                3 min read
               </span>
               
-                <a href="https://slackmorning.github.io/ht0G5ccMr/" class="post-tag">
-                  # 摸鱼日记
+                <a href="https://slackmorning.github.io/zA48kO2lo/" class="post-tag">
+                  # python
+                </a>
+              
+                <a href="https://slackmorning.github.io/iCtpejR2bk/" class="post-tag">
+                  # NLP
                 </a>
               
             </div>
             
-              <img class="post-feature-image" src="https://slackmorning.github.io/post-images/Hx2mbavoe.png" alt="">
+              <img class="post-feature-image" src="https://slackmorning.github.io/post-images/3TcW2scNJ.png" alt="">
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>昨天立的 flag 又收了。早起补进度。😇</p>
+                <p>StanfordNLP 的 python 接口项目改名为了 Stanza， 刚好需要完成词性标注任务。记录一下。<br>
+哦不，Stanza 除了继承 Stanfor CoreNLP 的 python 接口，还集成了基于 PyTorch 的神经网络模型。</p>
 <!-- more -->
-<p>疫情不开学，在家小肚子渐长。算了一下 BMI，高达25.8。🤤<br>
-要控制食量，增强运动了。🙃<br>
-今天是母亲节。</p>
-<p>今日任务：<br>
-<s>1. 为blog设置DNS</s><br>
-- 在 namesilo 选择域名，用 cloudflare.com 的域名服务器，需要近半小时等待的域名服务器处理。(10:53)<br>
-- github page 设置👉<a href="https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">文档</a><br>
-- 发现 lemon 主题的 markdown list 没有图标，切回 notes 主题。(11:28)<br>
-- 午睡结束 (14:37)<br>
-2. 整理预处理<br>
-- <s>不小心玩手机到16：30</s><br>
-- github page 设置 custom domain 后需要在 Gridea 设置CNAME，并且同步后等待一段时间。否则会导致域名指向 404<br>
-- <s>理清原来写的程序到22：00</s><br>
-- 项目先不整理了，先过滤<br>
-3. 点互信息过滤<br>
-4. 补课<br>
-5. 喝水<br>
-- 1杯/2杯/3杯/4杯</p>
-<p>明日坑：</p>
-<ol>
-<li>Gridea 添加友链<br>
-👉<a href="https://i.immmmm.com/gridea-templates-friends/">教程</a></li>
-</ol>
+<p>主要参考为 <a href="https://stanfordnlp.github.io/stanza/">stanza 文档</a> 。以下为具体记录</p>
+<h3 id="1-安装">1. 安装</h3>
+<pre><code class="language-python">pip install stanza
+</code></pre>
+<p>Oh no, stanza 支持 1.3.0 及其以上的 pytorch，为了不影响已有项目， conda create 新环境。</p>
+<pre><code class="language-python">conda create -n stanza python=3.6.1
+conda activate stanza
+pip install stanza
+</code></pre>
+<p>Oh no, stanza 默认安装的 pytorch 为 1.4.0，在本机上报错，手工降级至 1.3.0。😕</p>
+<blockquote>
+<p>💡 最开始使用的 3.6.0, 调用时会报错。python 版本建议使用 3.6.1 或 3.6.3<br>
+运行 <code>conda install python=3.6.1</code> 更改 python 版本</p>
+</blockquote>
+<h3 id="2-下载需要的模型">2. 下载需要的模型</h3>
+<p>pos 需要的模型从<a href="https://stanfordnlp.github.io/stanza/pos.html#description">文档</a> 中查看。</p>
+<pre><code class="language-python">import stanza
+stanza.download('en', processors='tokenize,mwt,pos')
+</code></pre>
+<p>Oh no. 没挂代理下载模型好慢。<a href="https://flashgene.com/archives/112964.html">这里</a> 有给出手动下载后替换的方法，但我去摸了会儿鱼😇，回来之后下载完了。</p>
+<h3 id="3使用样例">3.使用样例</h3>
+<pre><code class="language-python">import stanza
+
+nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos')
+doc = nlp('Barack Obama was born in Hawaii.') # 这里传空字符串会报错
+print(*[f'word: {word.text}\tupos: {word.upos}\txpos: {word.xpos}\tfeats: {word.feats if word.feats else &quot;_&quot;}' for sent in doc.sentences for word in sent.words], sep='\n')
+</code></pre>
+<p>得到如下</p>
+<pre><code class="language-linux">word: Barack    upos: PROPN     xpos: NNP       feats: Number=Sing
+word: Obama     upos: PROPN     xpos: NNP       feats: Number=Sing
+word: was       upos: AUX       xpos: VBD       feats: Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+word: born      upos: VERB      xpos: VBN       feats: Tense=Past|VerbForm=Part|Voice=Pass
+word: in        upos: ADP       xpos: IN        feats: _
+word: Hawaii    upos: PROPN     xpos: NNP       feats: Number=Sing
+word: .         upos: PUNCT     xpos: .         feats: _
+</code></pre>
+<h3 id="4-获取-pos-结果">4. 获取 pos 结果</h3>
+<pre><code class="language-python">for sent in doc.sentences:
+    for word in sent.words:
+        token = word.text
+        pos = word.upos   # word.xpos 和 word.upos 是两个 tag 表对应的 tag
+</code></pre>
+<p>根据文档介绍 upos 和 xpos 为两个词性标签表对应的 tag<br>
+<code>universal POS (UPOS) tags, treebank-specific POS (XPOS) tags</code></p>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#1-%E5%AE%89%E8%A3%85">1. 安装</a></li>
+<li><a href="#2-%E4%B8%8B%E8%BD%BD%E9%9C%80%E8%A6%81%E7%9A%84%E6%A8%A1%E5%9E%8B">2. 下载需要的模型</a></li>
+<li><a href="#3%E4%BD%BF%E7%94%A8%E6%A0%B7%E4%BE%8B">3.使用样例</a></li>
+<li><a href="#4-%E8%8E%B7%E5%8F%96-pos-%E7%BB%93%E6%9E%9C">4. 获取 pos 结果</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
@@ -155,9 +189,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://slackmorning.github.io/ybS1FV4QS/">
+            <a href="https://slackmorning.github.io/R5qoux4sL/">
               <h3 class="post-title">
-                社会职能：行为知识建模与意图识别
+                Gridea 添加  Valine 留言系统
               </h3>
             </a>
           </div>
