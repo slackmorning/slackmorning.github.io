@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://slackmorning.github.io</id>
     <title>slackmorning</title>
-    <updated>2020-05-17T02:09:42.517Z</updated>
+    <updated>2020-05-17T08:09:18.275Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://slackmorning.github.io"/>
     <link rel="self" href="https://slackmorning.github.io/atom.xml"/>
-    <subtitle>摸鱼/笔记</subtitle>
+    <subtitle>🤤摸鱼/笔记</subtitle>
     <logo>https://slackmorning.github.io/images/avatar.png</logo>
     <icon>https://slackmorning.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, slackmorning</rights>
@@ -90,53 +90,6 @@ word: .         upos: PUNCT     xpos: .         feats: _
 <p>参考：<br>
 <a href="https://alastor.top/Gridea_Valine/">Gridea深度定制——留言</a><br>
 <a href="https://kveln.cn/post/qE678A4ce/">为你的Gridea博客加上Valine评论系统</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[摸鱼日记]]></title>
-        <id>https://slackmorning.github.io/_Zv4xGuqv/</id>
-        <link href="https://slackmorning.github.io/_Zv4xGuqv/">
-        </link>
-        <updated>2020-05-11T01:23:48.000Z</updated>
-        <summary type="html"><![CDATA[<p>摸鱼日记😇</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>摸鱼日记😇</p>
-<!-- more -->
-<p>今日任务：</p>
-<ol>
-<li>
-<p>Gridea 添加友链<br>
-👉<a href="https://i.immmmm.com/gridea-templates-friends/">教程</a></p>
-</li>
-<li>
-<p>互信息过滤</p>
-<ol>
-<li><s>读出过滤词</s></li>
-<li><s>对SG过滤</s></li>
-</ol>
-</li>
-<li>
-<p><s>GPU 驱动有问题，没 root 权限，询问老板如何解决。</s><br>
-大老板-&gt;小老板-&gt;同事-&gt;运维。终于在晚上有了 root 权限，自己装驱动。我也是醉了🙄<br>
-<code>sudo sh NVIDIA-Linux-x86_64-390.25.run --no-drm --disable-nouveau --silent --install-libglvnd</code><br>
-todo: 抽空升级驱动和 cuda ?</p>
-</li>
-<li>
-<p>补课😵（还有5周就结课了啊）</p>
-</li>
-<li>
-<p><s>运动</s></p>
-</li>
-<li>
-<p>喝水<br>
-1杯/2杯/3杯/4杯/5杯/6杯</p>
-</li>
-</ol>
-<p>明日任务：</p>
-<ol>
-<li>使用 jsDelivr 加速 Gridea<br>
-👉<a href="https://immmmm.com/jsdelivr-gridea/">教程</a></li>
-</ol>
 ]]></content>
     </entry>
     <entry>
