@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://slackmorning.github.io</id>
+    <id>https://slackmorning.icu</id>
     <title>slackmorning</title>
-    <updated>2020-05-20T05:40:48.569Z</updated>
+    <updated>2020-05-20T06:18:09.836Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://slackmorning.github.io"/>
-    <link rel="self" href="https://slackmorning.github.io/atom.xml"/>
+    <link rel="alternate" href="https://slackmorning.icu"/>
+    <link rel="self" href="https://slackmorning.icu/atom.xml"/>
     <subtitle>🤤摸鱼/笔记</subtitle>
-    <logo>https://slackmorning.github.io/images/avatar.png</logo>
-    <icon>https://slackmorning.github.io/favicon.ico</icon>
+    <logo>https://slackmorning.icu/images/avatar.png</logo>
+    <icon>https://slackmorning.icu/favicon.ico</icon>
     <rights>All rights reserved 2020, slackmorning</rights>
     <entry>
         <title type="html"><![CDATA[使用 Stanza 进行词性标注]]></title>
-        <id>https://slackmorning.github.io/3TcW2scNJ/</id>
-        <link href="https://slackmorning.github.io/3TcW2scNJ/">
+        <id>https://slackmorning.icu/3TcW2scNJ/</id>
+        <link href="https://slackmorning.icu/3TcW2scNJ/">
         </link>
         <updated>2020-05-16T11:46:48.000Z</updated>
         <summary type="html"><![CDATA[<p>StanfordNLP 的 python 接口项目改名为了 Stanza， 刚好需要完成词性标注任务。记录一下。<br>
@@ -70,8 +70,8 @@ word: .         upos: PUNCT     xpos: .         feats: _
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 添加  Valine 留言系统]]></title>
-        <id>https://slackmorning.github.io/R5qoux4sL/</id>
-        <link href="https://slackmorning.github.io/R5qoux4sL/">
+        <id>https://slackmorning.icu/R5qoux4sL/</id>
+        <link href="https://slackmorning.icu/R5qoux4sL/">
         </link>
         <updated>2020-05-16T02:57:34.000Z</updated>
         <content type="html"><![CDATA[<p>国内版 leancloud 要求实名认证（辣鸡），本次使用 <a href="https://us.leancloud.cn/">leancloud 国际版</a>。</p>
@@ -94,8 +94,8 @@ word: .         upos: PUNCT     xpos: .         feats: _
     </entry>
     <entry>
         <title type="html"><![CDATA[点互信息的计算与python实现]]></title>
-        <id>https://slackmorning.github.io/1JImJFnvI/</id>
-        <link href="https://slackmorning.github.io/1JImJFnvI/">
+        <id>https://slackmorning.icu/1JImJFnvI/</id>
+        <link href="https://slackmorning.icu/1JImJFnvI/">
         </link>
         <updated>2020-05-10T15:28:50.000Z</updated>
         <summary type="html"><![CDATA[<p>对计算方法进行的核实，用 python 摸鱼实现😇</p>
@@ -123,14 +123,14 @@ def pmi(prob_s, prob_x, prob_xs):
 <h2 id="引用">引用</h2>
 <p>Kenneth Ward Church and Patrick Hanks. 1990. Word<br>
 association norms, mutual information, and lexicography. Computational linguistics, 16(1):22–29.<br>
-<img src="https://slackmorning.github.io/post-images/1589127414028.png" alt="PMI" loading="lazy"><br>
-<img src="https://slackmorning.github.io/post-images/1589128672160.png" alt="PMI介绍" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589127414028.png" alt="PMI" loading="lazy"><br>
+<img src="https://slackmorning.icu/post-images/1589128672160.png" alt="PMI介绍" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[摸鱼日记]]></title>
-        <id>https://slackmorning.github.io/Hx2mbavoe/</id>
-        <link href="https://slackmorning.github.io/Hx2mbavoe/">
+        <id>https://slackmorning.icu/Hx2mbavoe/</id>
+        <link href="https://slackmorning.icu/Hx2mbavoe/">
         </link>
         <updated>2020-05-10T00:37:04.000Z</updated>
         <summary type="html"><![CDATA[<p>昨天立的 flag 又收了。早起补进度。😇</p>
@@ -164,8 +164,8 @@ association norms, mutual information, and lexicography. Computational linguisti
     </entry>
     <entry>
         <title type="html"><![CDATA[社会职能：行为知识建模与意图识别]]></title>
-        <id>https://slackmorning.github.io/ybS1FV4QS/</id>
-        <link href="https://slackmorning.github.io/ybS1FV4QS/">
+        <id>https://slackmorning.icu/ybS1FV4QS/</id>
+        <link href="https://slackmorning.icu/ybS1FV4QS/">
         </link>
         <updated>2020-05-09T10:22:44.000Z</updated>
         <summary type="html"><![CDATA[<p>摸鱼笔记😇</p>
@@ -199,12 +199,12 @@ association norms, mutual information, and lexicography. Computational linguisti
 </li>
 </ul>
 <h3 id="用户行为分析方法">用户行为分析方法</h3>
-<figure data-type="image" tabindex="1"><img src="https://slackmorning.github.io/post-images/1589020974403.png" alt="用户行为分析方法" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://slackmorning.icu/post-images/1589020974403.png" alt="用户行为分析方法" loading="lazy"></figure>
 <h3 id="对影响因素的考虑">对影响因素的考虑</h3>
 <ul>
 <li>两方面因素：参与用户和媒体对象</li>
 <li>结合内容、结构信息和关联关系<br>
-<img src="https://slackmorning.github.io/post-images/1589021023939.png" alt="对影响因素的考虑" loading="lazy"></li>
+<img src="https://slackmorning.icu/post-images/1589021023939.png" alt="对影响因素的考虑" loading="lazy"></li>
 </ul>
 <h2 id="用户行为与交互意图">用户行为与交互意图</h2>
 <ul>
@@ -224,7 +224,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 </li>
 </ul>
 <h3 id="社交媒体中用户的交互意图">社交媒体中用户的交互意图</h3>
-<figure data-type="image" tabindex="2"><img src="https://slackmorning.github.io/post-images/1589021144098.png" alt="社交媒体中用户的交互意图" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://slackmorning.icu/post-images/1589021144098.png" alt="社交媒体中用户的交互意图" loading="lazy"></figure>
 <h2 id="言语行为理论">言语行为理论</h2>
 <p>日常语言哲学中最重要的流派之一、语用学研究中 最重要的方法之一，对言语分析影响深远的理论</p>
 <ul>
@@ -242,7 +242,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 <p>言语行为分类方案可以方便地识别一句话中说话者的意图(Huang, 2001)</p>
 <h3 id="基于言语行为的交互意图分类">基于言语行为的交互意图分类</h3>
 <p>Searle (1969)系统完善了言外行为的分类：<br>
-<img src="https://slackmorning.github.io/post-images/1589021350873.png" alt="基于言语行为的交互意图分类" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589021350873.png" alt="基于言语行为的交互意图分类" loading="lazy"></p>
 <h3 id="关于言语行为理论的计算工作">关于言语行为理论的计算工作</h3>
 <p>主要领域：自然语言会话、话语理解</p>
 <ul>
@@ -328,20 +328,20 @@ association norms, mutual information, and lexicography. Computational linguisti
 </ul>
 <h3 id="用户交互意图的分类体系">用户交互意图的分类体系</h3>
 <p>根据言语行为理论划分9个类别：<br>
-<img src="https://slackmorning.github.io/post-images/1589021712959.png" alt="用户交互意图的分类体系" loading="lazy"><br>
-<img src="https://slackmorning.github.io/post-images/1589021748897.png" alt="用户交互意图的分类体系续" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589021712959.png" alt="用户交互意图的分类体系" loading="lazy"><br>
+<img src="https://slackmorning.icu/post-images/1589021748897.png" alt="用户交互意图的分类体系续" loading="lazy"></p>
 <h3 id="交互意图分类示例">交互意图分类示例</h3>
-<figure data-type="image" tabindex="3"><img src="https://slackmorning.github.io/post-images/1589021789935.png" alt="交互意图分类示例" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://slackmorning.icu/post-images/1589021789935.png" alt="交互意图分类示例" loading="lazy"></figure>
 <h3 id="行为标记语用于区分意图类别">行为标记语用于区分意图类别</h3>
 <ul>
 <li>行为标记语假说：(用于显示表达)<br>
 根据行为标记语相关研究（Vanderveken, 1990），每个句子 由包含行为标记语动词的深层结构产生，而行为标记语本身 便具有言外之意，可用于区分言语行为</li>
 <li>作为行为标记语的言语行为动词是区分句类的充分 标记（吴剑锋,《语言科学》2009）<br>
-<img src="https://slackmorning.github.io/post-images/1589021841033.png" alt="行为标记语用于区分意图类别" loading="lazy"></li>
+<img src="https://slackmorning.icu/post-images/1589021841033.png" alt="行为标记语用于区分意图类别" loading="lazy"></li>
 </ul>
 <h3 id="行为标记语词典的初始化">行为标记语词典的初始化</h3>
 <p>行为标记语动词-&gt;种子词<br>
-<img src="https://slackmorning.github.io/post-images/1589021877593.png" alt="行为标记语词典的初始化" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589021877593.png" alt="行为标记语词典的初始化" loading="lazy"></p>
 <h3 id="行为标记语词典的建立与扩充">行为标记语词典的建立与扩充</h3>
 <ul>
 <li>HowNet：以汉语和英语词语所代表的概念为描述对象，以揭示概念与概念之间、概念所具有的属性之间的关系为基本内容。可以将其看作 一个以概念为基础的语义知识词典</li>
@@ -369,8 +369,8 @@ association norms, mutual information, and lexicography. Computational linguisti
     </entry>
     <entry>
         <title type="html"><![CDATA[社会智能：回顾]]></title>
-        <id>https://slackmorning.github.io/5MAjxI4HG/</id>
-        <link href="https://slackmorning.github.io/5MAjxI4HG/">
+        <id>https://slackmorning.icu/5MAjxI4HG/</id>
+        <link href="https://slackmorning.icu/5MAjxI4HG/">
         </link>
         <updated>2020-05-09T09:32:34.000Z</updated>
         <summary type="html"><![CDATA[<p>摸鱼笔记😇</p>
@@ -431,7 +431,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 </table>
 <h2 id="结构化知识表示方法">结构化知识表示方法</h2>
 <p>随知识更称发展，属于符号注意智能观与知识工程表示观下。<br>
-<img src="https://slackmorning.github.io/post-images/1589017344514.png" alt="结构化知识表示方法" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589017344514.png" alt="结构化知识表示方法" loading="lazy"></p>
 <h2 id="语义网络">语义网络</h2>
 <p>记忆是概念见的联系，通过记忆来进行概念间的推导，表示概念间的关系。</p>
 <ul>
@@ -450,7 +450,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 <ul>
 <li>is-a: 个体对类、子类对类的隶属关系</li>
 <li>part-of：全体对部分的包含关系<br>
-<img src="https://slackmorning.github.io/post-images/1589017802316.png" alt="语义网络" loading="lazy"></li>
+<img src="https://slackmorning.icu/post-images/1589017802316.png" alt="语义网络" loading="lazy"></li>
 </ul>
 </li>
 <li>event 结点：表示一个动作或事件</li>
@@ -463,7 +463,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 <ul>
 <li>匹配：语义网络知识库与待求解问题的语义网络模式</li>
 <li>继承：隶属关系下的属性继承、直接继承等<br>
-<img src="https://slackmorning.github.io/post-images/1589017997188.png" alt="语义网络的推理" loading="lazy"></li>
+<img src="https://slackmorning.icu/post-images/1589017997188.png" alt="语义网络的推理" loading="lazy"></li>
 </ul>
 <h3 id="语义网络表示法的特点">语义网络表示法的特点</h3>
 <ul>
@@ -486,7 +486,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 </ul>
 <h2 id="框架表示法">框架表示法</h2>
 <p>认为人脑中存在典型情景。在新情景下，根据粗略情况，填充框架内的值，最后再存储在记忆中。<br>
-<img src="https://slackmorning.github.io/post-images/1589018283305.png" alt="框架表示法" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589018283305.png" alt="框架表示法" loading="lazy"></p>
 <h3 id="框架表示下的推理">框架表示下的推理</h3>
 <p>匹配和继承填槽方式：</p>
 <ol>
@@ -555,7 +555,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 <ul>
 <li>
 <p>逻辑法求解问题的一般步骤<br>
-<img src="https://slackmorning.github.io/post-images/1589018691472.png" alt="逻辑法求解问题的一般步骤" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589018691472.png" alt="逻辑法求解问题的一般步骤" loading="lazy"></p>
 </li>
 <li>
 <p>优点：自然性、严格性、模块性</p>
@@ -583,7 +583,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 </li>
 </ul>
 <h3 id="产生式系统的结构">产生式系统的结构</h3>
-<figure data-type="image" tabindex="1"><img src="https://slackmorning.github.io/post-images/1589018947779.png" alt="产生式系统的结构" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://slackmorning.icu/post-images/1589018947779.png" alt="产生式系统的结构" loading="lazy"></figure>
 <ul>
 <li>知识库
 <ul>
@@ -619,7 +619,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 </ul>
 <p>应用于对知识表示比较松散的领域。</p>
 <h2 id="知识表示观">知识表示观</h2>
-<figure data-type="image" tabindex="2"><img src="https://slackmorning.github.io/post-images/1589019188099.png" alt="知识表示观" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://slackmorning.icu/post-images/1589019188099.png" alt="知识表示观" loading="lazy"></figure>
 <ul>
 <li>知识表示：客观事物到推理内部的一种映射</li>
 <li>应与问题领域的知识特性相吻合，以最大程度地减少失真</li>
@@ -635,13 +635,13 @@ association norms, mutual information, and lexicography. Computational linguisti
 需要背景理论来构造并检查生成的解释；不保真</li>
 </ul>
 <h3 id="推理形式示例">推理形式示例</h3>
-<figure data-type="image" tabindex="3"><img src="https://slackmorning.github.io/post-images/1589019358249.png" alt="推理形式示例" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://slackmorning.icu/post-images/1589019358249.png" alt="推理形式示例" loading="lazy"></figure>
 <h3 id="经典与非经典逻辑推理">经典与非经典逻辑推理</h3>
 <ul>
 <li>经典逻辑推理<br>
 标准逻辑下的演绎推理是人工智能最早采用的经典推理方法， 归结推理方法是其最重要的形式化方法</li>
 <li>非经典逻辑与非经典推理<br>
-<img src="https://slackmorning.github.io/post-images/1589019433895.png" alt="非经典逻辑与非经典推理" loading="lazy"></li>
+<img src="https://slackmorning.icu/post-images/1589019433895.png" alt="非经典逻辑与非经典推理" loading="lazy"></li>
 </ul>
 <h3 id="基于知识的推理">基于知识的推理</h3>
 <ul>
@@ -653,8 +653,8 @@ association norms, mutual information, and lexicography. Computational linguisti
     </entry>
     <entry>
         <title type="html"><![CDATA[社会智能：概述]]></title>
-        <id>https://slackmorning.github.io/rNsLj_-Oh/</id>
-        <link href="https://slackmorning.github.io/rNsLj_-Oh/">
+        <id>https://slackmorning.icu/rNsLj_-Oh/</id>
+        <link href="https://slackmorning.icu/rNsLj_-Oh/">
         </link>
         <updated>2020-05-09T04:45:00.000Z</updated>
         <summary type="html"><![CDATA[<p>摸鱼笔记😇</p>
@@ -665,7 +665,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 <p>AI发展历程：<br>
 1970前：模拟人思维方式的物理符号系统<br>
 1970-1980：专家系统：知识的组成，推理<br>
-<img src="https://slackmorning.github.io/post-images/1588999862418.png" alt="专家系统基本结构" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1588999862418.png" alt="专家系统基本结构" loading="lazy"></p>
 <p>存在的弱点：</p>
 <ol>
 <li>脆弱性：对知识的依赖</li>
@@ -684,12 +684,12 @@ association norms, mutual information, and lexicography. Computational linguisti
 <h3 id="分布式人工智能学派">分布式人工智能学派</h3>
 <p><strong>分布式人工智能学派</strong> 认为智能系统是一个开放式系统，智能系统的行为不仅体现在单个个体的活动，而应当体现在多个个体之间既相互依存、又相互冲突的活动中。最终作出的决策是通过在多个个体之间进行协调的分布式方法。对<strong>多智能体研究</strong>的出现和发展起到推动作用。</p>
 <h3 id="多智能体">多智能体</h3>
-<p>BDI 智能体：根据环境输入和智能体的信念、目标和规划库，形成意图和行动输出。<img src="https://slackmorning.github.io/post-images/1589000841163.png" alt="BDI 智能体" loading="lazy"></p>
+<p>BDI 智能体：根据环境输入和智能体的信念、目标和规划库，形成意图和行动输出。<img src="https://slackmorning.icu/post-images/1589000841163.png" alt="BDI 智能体" loading="lazy"></p>
 <p>由于智能体能对动态变化的环境进行自主决策，在模拟战场，灾害抢救，机器人比赛，宇宙探索等场景下有很多应用。</p>
 <h3 id="社会职能与社会计算研究兴起">社会职能与社会计算研究兴起</h3>
 <p>2009年-：智能研究和应用向社会复杂领域延拓，计算技术与多学科领域的交叉融合。<br>
-<img src="https://slackmorning.github.io/post-images/1589001249843.png" alt="社会计算到社会智能1" loading="lazy"><br>
-<img src="https://slackmorning.github.io/post-images/1589001317582.png" alt="社会计算到社会智能2" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589001249843.png" alt="社会计算到社会智能1" loading="lazy"><br>
+<img src="https://slackmorning.icu/post-images/1589001317582.png" alt="社会计算到社会智能2" loading="lazy"></p>
 <p>从理论和技术角度，社会计算将从社会信息处理转向强调社会智能。</p>
 <ul>
 <li>从互联网上社会化数据，数据驱动的社会职能研究：
@@ -705,16 +705,16 @@ association norms, mutual information, and lexicography. Computational linguisti
 <ul>
 <li>Humman motivation theroy, decision theory, personality theory, communication theory, emotion theory ...</li>
 <li>Attribution theory, organization theory, social network theory, social reference theory, socilogy, anthropology ...<br>
-<img src="https://slackmorning.github.io/post-images/1589001742703.png" alt="人与社会相关理论与普适性计算模型" loading="lazy"></li>
+<img src="https://slackmorning.icu/post-images/1589001742703.png" alt="人与社会相关理论与普适性计算模型" loading="lazy"></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 <h2 id="社会智能的研究内容">社会智能的研究内容</h2>
-<p><img src="https://slackmorning.github.io/post-images/1589001902878.png" alt="社会智能的研究内容" loading="lazy"><br>
+<p><img src="https://slackmorning.icu/post-images/1589001902878.png" alt="社会智能的研究内容" loading="lazy"><br>
 从下而上，从偏重计算逐渐到偏重理解。各方面都有助于社会之鞥你系统与应用。<br>
-<img src="https://slackmorning.github.io/post-images/1589007242709.png" alt="研究内容举例" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589007242709.png" alt="研究内容举例" loading="lazy"></p>
 <h3 id="社会化数据的智能分析处理以社会文化计算为例">社会化数据的智能分析处理——以社会文化计算为例</h3>
 <ul>
 <li><strong>文化计算</strong> 致力于分析组织历史数据，发现组织行为与社会文化背景的关联，并利用社会文化背景信息分析预测组织行为</li>
@@ -742,9 +742,9 @@ association norms, mutual information, and lexicography. Computational linguisti
 </ul>
 </li>
 </ul>
-<figure data-type="image" tabindex="1"><img src="https://slackmorning.github.io/post-images/1589002982216.png" alt="情感认知评估模型OCC" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://slackmorning.icu/post-images/1589002982216.png" alt="情感认知评估模型OCC" loading="lazy"></figure>
 <h3 id="基于理论的计算模型建立">基于理论的计算模型建立</h3>
-<figure data-type="image" tabindex="2"><img src="https://slackmorning.github.io/post-images/1589003282964.png" alt="基于理论的计算模型建立" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://slackmorning.icu/post-images/1589003282964.png" alt="基于理论的计算模型建立" loading="lazy"></figure>
 <p>核心是根据理论模型，建立计算建模，自动化的学习输入与输出之间的 Mapping 关系。<br>
 这样的计算模型，基于人与社会的真实理论模型与一般化形式化的一般表示和计算机制，可以直接被计算智能系统采用。</p>
 <h4 id="困难性">困难性</h4>
@@ -763,7 +763,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 <li>对所建立的计算模型进行人的实验验证</li>
 </ul>
 <p>目前真正意义上基于描述性理论模型、适用于不同领域且经过人的实验验证的计算模型尚非常少。<br>
-<img src="https://slackmorning.github.io/post-images/1589003745176.png" alt="EMA 模型" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589003745176.png" alt="EMA 模型" loading="lazy"></p>
 <h3 id="社会智能系统与应用">社会智能系统与应用</h3>
 <h4 id="情报计算">情报计算</h4>
 <p>情报计算以计算机、自动化和人工智能等信息技术为手段，融合情报业务知 识与模型，实现对跨平台、跨语种、跨模态的情报大数据的获取、融合、存 储、分析、理解、推理与可视化，为业务部门提供战略、战役和战术等多层 面、多维度的情报分析算法、工具与决策方法。</p>
@@ -783,7 +783,7 @@ association norms, mutual information, and lexicography. Computational linguisti
 </li>
 </ul>
 <h4 id="情报计算的研究对象">情报计算的研究对象</h4>
-<figure data-type="image" tabindex="3"><img src="https://slackmorning.github.io/post-images/1589006489062.png" alt="情报计算的研究对象" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://slackmorning.icu/post-images/1589006489062.png" alt="情报计算的研究对象" loading="lazy"></figure>
 <h4 id="情报深度分析">情报深度分析</h4>
 <ul>
 <li>微观
@@ -814,21 +814,21 @@ association norms, mutual information, and lexicography. Computational linguisti
 </ul>
 <h4 id="情报计算技术体系">情报计算技术体系</h4>
 <p>从1.0/2.0 的定量分析指标体系，行为与影响力建模，向3.0网络空间博弈、舆论引导与信息反制发展。<br>
-<img src="https://slackmorning.github.io/post-images/1589006731400.png" alt="情报计算技术体系" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589006731400.png" alt="情报计算技术体系" loading="lazy"></p>
 <h4 id="大数据驱动的情报计算引擎">大数据驱动的情报计算引擎</h4>
 <p>在定制开发系统与通用分析工具之间需要这种，开发既有业务针对性，又有灵活性与扩展性的计算引擎。<br>
-<img src="https://slackmorning.github.io/post-images/1589006882155.png" alt="大数据驱动的情报计算引擎" loading="lazy"></p>
+<img src="https://slackmorning.icu/post-images/1589006882155.png" alt="大数据驱动的情报计算引擎" loading="lazy"></p>
 <h4 id="应用举例多智能体社会交互环境">应用举例：多智能体社会交互环境</h4>
-<p><img src="https://slackmorning.github.io/post-images/1589007009552.png" alt="MRE" loading="lazy"><br>
-<img src="https://slackmorning.github.io/post-images/1589007052189.png" alt="Virtual Human Architecture" loading="lazy"></p>
+<p><img src="https://slackmorning.icu/post-images/1589007009552.png" alt="MRE" loading="lazy"><br>
+<img src="https://slackmorning.icu/post-images/1589007052189.png" alt="Virtual Human Architecture" loading="lazy"></p>
 <h3 id="课程内容">课程内容</h3>
-<figure data-type="image" tabindex="4"><img src="https://slackmorning.github.io/post-images/1589007141114.png" alt="课程内容" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://slackmorning.icu/post-images/1589007141114.png" alt="课程内容" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[摸鱼日记]]></title>
-        <id>https://slackmorning.github.io/4TwVxslQO/</id>
-        <link href="https://slackmorning.github.io/4TwVxslQO/">
+        <id>https://slackmorning.icu/4TwVxslQO/</id>
+        <link href="https://slackmorning.icu/4TwVxslQO/">
         </link>
         <updated>2020-05-09T00:28:41.000Z</updated>
         <summary type="html"><![CDATA[<p>昨晚又玩手机到3点，明明是周六，早上8点半还要补课。😣</p>
@@ -847,8 +847,8 @@ association norms, mutual information, and lexicography. Computational linguisti
     </entry>
     <entry>
         <title type="html"><![CDATA[又一个拖延的周六]]></title>
-        <id>https://slackmorning.github.io/hello-gridea/</id>
-        <link href="https://slackmorning.github.io/hello-gridea/">
+        <id>https://slackmorning.icu/hello-gridea/</id>
+        <link href="https://slackmorning.icu/hello-gridea/">
         </link>
         <updated>2020-05-08T18:26:12.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  刷微信发现了 <strong>Gridea</strong> ！</p>
